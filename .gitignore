@@ -1,0 +1,18 @@
+# Terraform State (enthält Account-IDs, Ressourcen-ARNs etc.)
+*.tfstate
+*.tfstate.backup
+
+# Terraform Provider-Cache
+.terraform/
+
+# Projektdokumentation (nicht Teil des Repos)
+*.md
+!terraform/README.md
+!README.md
+
+# Cursor IDE
+.cursor/
+
+# Sonstige Projektdateien
+*.gantt
+Old Stuff/
